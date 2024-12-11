@@ -16,6 +16,8 @@ public class HolaMundo {
 		// Monstramos el saludo y el nombre introducido.
 		System.out.println("¡Hola, " + nombre + "! Bienvenido a Java.");
 		
+		// Cambio realizado desde rama desarollo.
+		// Comentario después de realizar fusión.
 	}
 
 }
