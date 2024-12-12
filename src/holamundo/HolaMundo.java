@@ -2,8 +2,22 @@ package holamundo;
 
 import java.util.Scanner;
 
+	/*
+	 * 
+	 *  El programa pregunta e imprime el nombre que ha
+		introducido el usuario. 
+	 *		
+	 *	@autor David
+	 *	@version 1.0
+	 *
+	 */
+
+
 public class HolaMundo {
 
+	/* El metodo principal es lo que contiene todo el codigo del programa 
+	y para que lo muenstre*/
+	
 	public static void main(String[] args) {
 		
 		// Declaramos el Scanner.
@@ -11,7 +25,7 @@ public class HolaMundo {
 		
 		// Pedimos al usuario un nombre.
 		System.out.print("Ingresa tu nombre: ");
-		String nombre = scanner.nextLine();
+		String nombre = scanner.nextLine(); // Sirve para leer lo que introduce el usuario
 		
 		// Monstramos el saludo y el nombre introducido.
 		System.out.println("¡Hola, " + nombre + "! Bienvenido a Java.");
